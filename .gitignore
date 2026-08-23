@@ -1,0 +1,29 @@
+# Build artifacts
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+Testing/
+
+# Compiled binaries and objects
+taxi_dispatch
+*.o
+*.obj
+*.exe
+*.out
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*~
+
+# IDE and editor settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
