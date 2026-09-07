@@ -25,8 +25,8 @@ This section tracks the ongoing development progress. Commits will be pushed reg
 - [ ] Configure `CMakeLists.txt` for the build system.
 
 ### Phase 2: Core Entities
-- [ ] Implement `Location` class for grid/coordinate mapping.
-- [ ] Implement `Passenger` and `Driver` classes to store user states.
+- [x] Implement `Location` class for grid/coordinate mapping.
+- [x] Implement `Passenger` and `Driver` classes to store user states.
 - [ ] Create `Ride` class to handle individual trip data.
 
 ### Phase 3: Dispatch & Business Logic
