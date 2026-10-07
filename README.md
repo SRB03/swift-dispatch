@@ -27,7 +27,7 @@ This section tracks the ongoing development progress. Commits will be pushed reg
 ### Phase 2: Core Entities
 - [x] Implement `Location` class for grid/coordinate mapping.
 - [x] Implement `Passenger` and `Driver` classes to store user states.
-- [ ] Create `Ride` class to handle individual trip data.
+- [x] Create `Ride` class to handle individual trip data.
 
 ### Phase 3: Dispatch & Business Logic
 - [ ] Implement `FareCalculator` to determine ride costs based on distance/time.
@@ -68,3 +68,13 @@ This section tracks the ongoing development progress. Commits will be pushed reg
    ```bash
    ./taxi_dispatch
    ``` -->
+
+
+<!-- 
+## Demo Flow
+1. Register drivers
+2. Create a passenger request
+3. Find the nearest available driver
+4. Compute fare
+5. Generate a ride record 
+-->
