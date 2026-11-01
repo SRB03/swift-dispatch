@@ -30,8 +30,8 @@ This section tracks the ongoing development progress. Commits will be pushed reg
 - [x] Create `Ride` class to handle individual trip data.
 
 ### Phase 3: Dispatch & Business Logic
-- [ ] Implement `FareCalculator` to determine ride costs based on distance/time.
-- [ ] Implement `NearestDriverStrategy` (applying the Strategy Design Pattern).
+- [x] Implement `FareCalculator` to determine ride costs based on distance/time.
+- [x] Implement `NearestDriverStrategy` (applying the Strategy Design Pattern).
 - [ ] Build the `DispatchCenter` to manage active entities and incoming requests.
 
 ### Phase 4: Integration & Execution
