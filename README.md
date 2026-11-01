@@ -22,7 +22,7 @@ This section tracks the ongoing development progress. Commits will be pushed reg
 
 ### Phase 1: Architecture & Setup
 - [x] Initialize repository and project directory structure (`src`, `include`, `docs`).
-- [ ] Configure `CMakeLists.txt` for the build system.
+- [x] Configure `CMakeLists.txt` for the build system.
 
 ### Phase 2: Core Entities
 - [x] Implement `Location` class for grid/coordinate mapping.
@@ -32,15 +32,15 @@ This section tracks the ongoing development progress. Commits will be pushed reg
 ### Phase 3: Dispatch & Business Logic
 - [x] Implement `FareCalculator` to determine ride costs based on distance/time.
 - [x] Implement `NearestDriverStrategy` (applying the Strategy Design Pattern).
-- [ ] Build the `DispatchCenter` to manage active entities and incoming requests.
+- [x] Build the `DispatchCenter` to manage active entities and incoming requests.
 
 ### Phase 4: Integration & Execution
-- [ ] Integrate components within `main.cpp` to simulate end-to-end workflows.
-- [ ] Add basic exception handling and edge case management (e.g., no available drivers).
+- [x] Integrate components within `main.cpp` to simulate end-to-end workflows.
+- [x] Add basic exception handling and edge case management (e.g., no available drivers).
 
 ### Phase 5: Refinement
-- [ ] Refactor code for optimization and strict OOP compliance.
-- [ ] Add inline comments for complex logic blocks.
+- [x] Refactor code for optimization and strict OOP compliance.
+- [x] Add inline comments for complex logic blocks.
 
 ## Getting Started
 
