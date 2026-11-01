@@ -1,12 +1,3 @@
-// main.cpp — Interactive CLI front-end for the Swift Dispatch ride-dispatching system.
-//
-// Relies ONLY on the interfaces already used by the original main.cpp:
-//   DispatchCenter(unique_ptr<NearestDriverStrategy>, unique_ptr<StandardFareCalculator>)
-//   DispatchCenter::registerDriver(Driver), DispatchCenter::createRide(Passenger) -> Ride
-//   Driver(int, string, string, Location, double), Passenger(int, string, Location, Location)
-//   Location(string, double, double)
-//   Ride::getRideId/getDriver/getPassenger/getDistance/getFare/getStatus
-
 #include <algorithm>
 #include <cstdlib>
 #include <iomanip>
